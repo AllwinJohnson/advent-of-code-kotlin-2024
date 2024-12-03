@@ -1,3 +1,4 @@
+/*
 package core
 
 import utils.println
@@ -6,7 +7,7 @@ import kotlin.math.abs
 
 fun main() {
     // Read the input file and split each line into two numbers
-    val input = readInput("tests\\day01\\Day01")
+    val input = readInput("tests\\Day01")
         .filter { it.isNotBlank() } // Filter out any empty lines
 
     val (leftList, rightList) = input.map { line ->
@@ -35,4 +36,4 @@ fun calculateSimilarityScore(leftList: List<Int>, rightList: List<Int>): Int {
         val countInRight = rightCountMap[number] ?: 0
         number * countInRight
     }
-}
+}*/
